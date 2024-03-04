@@ -1,0 +1,253 @@
+body {
+    height: 10000%;
+    margin: 0;
+}
+* {
+    margin: 0%;
+}
+/* library */
+.clear{
+    clear: both;
+}
+/* end library */
+/* :start nav */
+nav {
+    width: 100%;
+    /* height: 80px; */
+    background: white;
+    box-shadow: 11px -2px 13px black;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-transform: capitalize; 
+    position: fixed;  
+    z-index: 999;
+}
+nav p {
+    float: left;
+    padding: 20px;
+}
+nav ul {
+    float: right;
+}
+nav ul li {
+    list-style: none;
+    float: left;
+    padding: 20px;
+}
+/* end nav */
+/* :start header */
+header{
+    position: relative;
+
+}
+header img {
+    width: 100%;
+}
+header .hero {
+    /* background: red; */
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+}
+header .hero p {
+    font-size: 40px;
+    color: white;
+}
+header .hero p span{
+    font-weight: 100;
+    background: black;
+    padding: 22px;
+    opacity: 76%;
+    
+}
+/* end header */
+/* start projects section */
+.contianer{
+    width: 95%;
+    height: 500px;
+    margin: auto;
+}
+#project {
+    margin-top: 60px;
+
+}
+#project h1 {
+    margin-block: 30px;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+}
+#project hr {
+    opacity: 0,5;
+}
+#project  .parent {
+    margin-top: 50px;
+    
+} 
+#project  .parent .child{
+    width: calc(100% / 4 - 10px);
+    position: relative;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+#project  .parent .child img{
+    width: 100%;
+    
+}
+#project  .parent .child span{
+    position: absolute;
+    background: black;
+    color: white;
+    padding: 6px 17px;
+    top: 0;
+    left: 0;
+}
+/* end projects section  */
+/* start about section */
+.con{
+    width: 95%;
+    height: 500px;
+    margin: auto;
+}
+#about{
+    margin-top: 60px;
+}
+#about h1{
+    margin-block: 30px;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+
+}
+#about hr{
+    opacity: 0.5;
+}
+#about p {
+    margin-block: 20px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+#about .parent2 {
+    margin-top: 50px;
+    /* display: block; */
+
+}
+#about .parent2 .child2 {
+    width: 330px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+    
+
+}
+#about .parent2 .child2 img{
+    width: 100%;
+   
+
+}
+#about .parent2 .child2 span{
+    color: black;
+    font-size: 27px;
+    margin-top: 20px;
+
+}
+#about .parent2 .child2 h6{
+    color: gray;
+    font-size: 17px;
+    /* letter-spacing: 2px; */
+    text-transform: capitalize;
+    margin-top: 10px;
+
+}
+#about .parent2 .child2 p {
+    color: black;
+    /* font-size: 30px; */
+    line-height: 1.5;
+
+}
+#about .parent2 .child2 button {
+    /* margin: 15px; */
+    width: 100%;
+    background-color: #f1f1f1;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    
+}
+/* end about sction  */
+.cont{
+    width: 95%;
+    height: 500px;
+    margin: auto;
+}
+#contact{
+    margin-top: 200px;
+
+}
+#contact h2{
+    margin-block: 30px;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+
+
+}
+#contact hr{
+    opacity: 0.5;
+}
+#contact p {
+    margin-top: 10px;
+    font-size: 20px;
+}
+#contact form{
+    margin-bottom: 20px;
+    /* display: grid; */
+    margin-top: 30px;
+
+
+}
+.nam{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 8px;
+  
+    
+}
+.ema{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 8px;
+}
+.sub{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 8px;
+}
+.comm{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 8px; 
+}
+.mess{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+.mag{
+    padding: 20px;
+    width: 100%;
+
+}
+.fina{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 40px;
+}
+.fin{
+    color: white;
+}
